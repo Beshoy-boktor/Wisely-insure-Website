@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wisely-Insure</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
+        
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script> -->
+        <!-- <script src="https://code.angularjs.org/1.7.2/angular-route.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+        <script src="js/angular.js"></script>
+    </head>
+    <body>
+        <div class="row justify-content-center pop-bg">
+            <div class="pop-bg-2"></div>
+            <div class="col-9 col-lg-7 pop-sec">
+                <div class="row justify-content-center pop-header">
+                    <div class="col-3">
+                        <img src="imgs/male.png">
+                    </div>
+                    <div class="col-9">
+                        <p>Hi there, let us help you to compare and get the best insurance benefits and prices</p>
+                    </div>
+                </div>
+
+                <div class="pop-content">
+                    <p>Health Insurance</p>
+                    <a href="#!/contact-form"><button class="search-btn">Customize your own plan</button></a>
+                    <a href="#!/compareplans"><button class="search-btn">Compare plans now</button></a>
+                </div>
+
+                <div class="pop-content">
+                    <p>Life & Disability Insurance</p>
+                    <a href="#!/contact-form"><button class="search-btn">Customize your own plan</button></a>
+                    <a href="#!/compareplans"><button class="search-btn">Compare plans now</button></a>
+                </div>
+
+                <div class="pop-content">
+                    <p>General Insurance</p>
+                    <a href="#!/getQuote"><button class="search-btn">Get Quote</button></a>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------nav-bar----------------------------------->
+        <header>
+            <nav class="navbar  navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="imgs/Wisely-insure.logo.png" alt="wisely-logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!/home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!/getQuote">Get Quote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!/companies">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!/directory">Directory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!/contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="right-nav">
+                        <a href="#!/trywisely"  class="hidethis"><button id="nav_btn">Try Wisely</button></a>
+                        <a href="#" class="nav-anch"><img src="imgs/facebook.png" alt="face-logo"></a>
+                        <a href="#" class="nav-anch"><img src="imgs/Linkedin.png" alt="linkedin-logo"></a>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+        <!-------------------------------------end-nav-bar----------------------------------->
+        
+        <!-------------------------------------main----------------------------------->
+        <main ng-view >
+            <!---------------------------first------------------------->
+
+            <!--------------------------end-4th------------------------->
+        </main>
+        <!-------------------------------------end-main----------------------------------->
+
+        <footer>
+            <section class="row justify-content-center">
+                <div class="col-11 footer-line">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-3 footer-logo">
+                            <img src="imgs/Wisely-insure.logo.png">
+                        </div>
+                        <div class="col-6 col-md-3 footer-links">
+                            <a href="#">Get Quote</a>
+                            <a href="#">Companies Directory</a>
+                            <a href="#">Be a Partner</a>
+                            <a href="#">Contact</a>
+                        </div>
+                        <div class="col-6 col-md-3 footer-links">
+                            <a href="#">Take a Survey</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">Advertise With Us</a>
+                            <a href="#">Work With Wisely</a>
+                        </div>
+                        <div class="col-6 col-md-3 footer-links">
+                            <a href="#">Home</a>
+                            <a href="#">About Us</a>
+                            <a href="#" class="footer-social-links"><img src="imgs/facebook.png"></a>
+                            <a href="#" class="footer-social-links"><img src="imgs/Linkedin.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 rights">
+                    <p>All Rights Reserved @ WiselyInsure 2017</p>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

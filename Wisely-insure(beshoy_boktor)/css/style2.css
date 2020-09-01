@@ -1,0 +1,108 @@
+@import "../style.css";
+* {
+  color: #051e55;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  text-shadow: 0px 0px 0px;
+  color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+
+.collapse.navbar-collapse .right-nav button {
+  background-color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+.collapse.navbar-collapse .right-nav button:hover {
+  box-shadow: 0px 0px 7px #051e55;
+  transition: 0.3s ease-in-out;
+}
+
+nav.navbar.navbar-expand-lg:after {
+  border-bottom-color: #051e55;
+}
+
+.intro-btns button {
+  background-color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+.intro-btns button:hover {
+  box-shadow: 0px 0px 7px #051e55;
+  transition: 0.3s ease-in-out;
+}
+
+.categories a {
+  color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+.categories a:hover {
+  text-shadow: 0px 0px 0px;
+  color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+
+.third-left-con button, .contact-sec button {
+  background-color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+.third-left-con button:hover, .contact-sec button:hover {
+  box-shadow: 0px 0px 7px #051e55;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-links a {
+  color: #051e55;
+}
+
+.rights {
+  background-color: #051e55;
+}
+
+.num-icons span {
+  background-color: #051e55;
+}
+
+.num-icons :after {
+  border-color: #051e55;
+}
+
+#btn, .directory-sec, .table-headers {
+  background-color: #051e55;
+}
+
+form input:focus {
+  color: #051e55;
+}
+
+.table-heading, .table2-heading {
+  background-color: #051e55;
+  color: #fff;
+}
+
+.search-btn {
+  background-color: #051e55;
+  border-color: #051e55;
+  transition: 0.3s ease-in-out;
+}
+.search-btn:hover {
+  box-shadow: 0px 0px 7px #051e55;
+  transition: 0.3s ease-in-out;
+}
+
+.directory-sec-section {
+  background-color: #20355D;
+}
+
+.plans-table td {
+  border-color: #051e55;
+}
+
+.plans-table th {
+  border-color: #051e55;
+}
+
+/*# sourceMappingURL=style2.css.map */
